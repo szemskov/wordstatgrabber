@@ -1,0 +1,79 @@
+2013/11/13 12:59:41 [trace] [system.CModule] Loading "log" application component
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Report.count()
+2013/11/13 12:59:41 [trace] [system.CModule] Loading "db" application component
+2013/11/13 12:59:41 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `report` `t`
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Applications.find()
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `applications`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `applications`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `applications` `t` WHERE timestamp < :time and token <> '' ORDER BY rand() LIMIT 1
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Applications.update()
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Applications.updateByPk()
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `applications` SET `aid`=:yp0, `login`=:yp1, `application_id`=:yp2, `token`=:yp3, `limit`=:yp4, `timestamp`=:yp5 WHERE `applications`.`aid`='14'
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Keywords.findAll()
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `keywords`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `keywords`
+2013/11/13 12:59:41 [trace] [system.CModule] Loading "log" application component
+2013/11/13 12:59:41 [trace] [system.db.ar.CActiveRecord] Report.find()
+2013/11/13 12:59:41 [trace] [system.CModule] Loading "db" application component
+2013/11/13 12:59:41 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 12:59:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `report` `t` LIMIT 1
+2013/11/13 12:59:42 [trace] [system.CModule] Loading "log" application component
+2013/11/13 12:59:42 [trace] [system.db.ar.CActiveRecord] Report.count()
+2013/11/13 12:59:42 [trace] [system.CModule] Loading "db" application component
+2013/11/13 12:59:42 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `report` `t`
+2013/11/13 12:59:42 [trace] [system.db.ar.CActiveRecord] Applications.find()
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `applications`
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `applications`
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `applications` `t` WHERE timestamp < :time and token <> '' ORDER BY rand() LIMIT 1
+2013/11/13 12:59:42 [trace] [system.db.ar.CActiveRecord] Applications.update()
+2013/11/13 12:59:42 [trace] [system.db.ar.CActiveRecord] Applications.updateByPk()
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `applications` SET `aid`=:yp0, `login`=:yp1, `application_id`=:yp2, `token`=:yp3, `limit`=:yp4, `timestamp`=:yp5 WHERE `applications`.`aid`='9'
+2013/11/13 12:59:42 [trace] [system.db.ar.CActiveRecord] Keywords.findAll()
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `keywords`
+2013/11/13 12:59:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `keywords`
+2013/11/13 12:59:51 [trace] [system.CModule] Loading "log" application component
+2013/11/13 12:59:51 [trace] [system.db.ar.CActiveRecord] Report.find()
+2013/11/13 12:59:51 [trace] [system.CModule] Loading "db" application component
+2013/11/13 12:59:51 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 12:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 12:59:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 12:59:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `report` `t` LIMIT 1
+2013/11/13 13:00:00 [trace] [system.CModule] Loading "log" application component
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Report.find()
+2013/11/13 13:00:00 [trace] [system.CModule] Loading "db" application component
+2013/11/13 13:00:00 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `report` `t` LIMIT 1
+2013/11/13 13:00:00 [trace] [system.CModule] Loading "log" application component
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Report.count()
+2013/11/13 13:00:00 [trace] [system.CModule] Loading "db" application component
+2013/11/13 13:00:00 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `report` `t`
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Applications.find()
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `applications`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `applications`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `applications` `t` WHERE timestamp < :time and token <> '' ORDER BY rand() LIMIT 1
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Applications.update()
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Applications.updateByPk()
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `applications` SET `aid`=:yp0, `login`=:yp1, `application_id`=:yp2, `token`=:yp3, `limit`=:yp4, `timestamp`=:yp5 WHERE `applications`.`aid`='8'
+2013/11/13 13:00:00 [trace] [system.db.ar.CActiveRecord] Keywords.findAll()
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `keywords`
+2013/11/13 13:00:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `keywords`
+2013/11/13 13:00:10 [trace] [system.CModule] Loading "log" application component
+2013/11/13 13:00:10 [trace] [system.db.ar.CActiveRecord] Report.find()
+2013/11/13 13:00:10 [trace] [system.CModule] Loading "db" application component
+2013/11/13 13:00:10 [trace] [system.db.CDbConnection] Opening DB connection
+2013/11/13 13:00:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `report`
+2013/11/13 13:00:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `report`
+2013/11/13 13:00:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `report` `t` LIMIT 1

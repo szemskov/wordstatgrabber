@@ -1,0 +1,140 @@
+2013/11/13 13:08:08 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:09:08 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:09:11 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:09:13 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:09:46 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:09:59 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:10:10 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:10:10 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Statistic.name".' in /Users/sergeyzemskov/wordstatgrabber/framework/base/CComponent.php:173
+Stack trace:
+#0 /Users/sergeyzemskov/wordstatgrabber/framework/db/ar/CActiveRecord.php(161): CComponent->__set('name', '????????????')
+#1 /Users/sergeyzemskov/wordstatgrabber/protected/models/Statistic.php(108): CActiveRecord->__set('name', '????????????')
+#2 /Users/sergeyzemskov/wordstatgrabber/protected/views/statistic/index.php(26): Statistic->search()
+#3 /Users/sergeyzemskov/wordstatgrabber/framework/web/CBaseController.php(126): require('/Users/sergeyze...')
+#4 /Users/sergeyzemskov/wordstatgrabber/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/sergeyze...', Array, true)
+#5 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(869): CBaseController->renderFile('/Users/sergeyze...', Array, true)
+#6 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#7 /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php(134): CController->render('index', Array)
+#8 /Users/sergeyzemskov/wordstatgrabber/framework/web/actions/CInlineAction.php(49): StatisticController->actionIndex()
+#9 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/sergeyzemskov/wordstatgrabber/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Users/sergeyzemskov/wordstatgrabber/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /Users/sergeyzemskov/wordstatgrabber/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /Users/sergeyzemskov/wordstatgrabber/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(291): CFilterChain->run()
+#16 /Users/sergeyzemskov/wordstatgrabber/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Users/sergeyzemskov/wordstatgrabber/framework/web/CWebApplication.php(282): CController->run('')
+#18 /Users/sergeyzemskov/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('statistic')
+#19 /Users/sergeyzemskov/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Users/sergeyzemskov/wordstatgrabber/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/statistic?Keywords%5Bname%5D=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C&Statistic%5Byear%5D=&Statistic%5Bmonth%5D=&Statistic%5Bshows%5D=%3E200%2C%3C1000&Statistic_page=1&ajax=statistic-grid
+HTTP_REFERER=http://localhost/statistic
+---
+2013/11/13 13:10:39 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:10:50 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/13 13:11:04 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /Users/sergeyzemskov/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /Users/sergeyzemskov/wordstatgrabber/index.php (13)
+2013/11/14 08:00:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "apl".' in /Users/sergeyzemskov/wordstatgrabber/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/sergeyzemskov/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('apl')
+#1 /Users/sergeyzemskov/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Users/sergeyzemskov/wordstatgrabber/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apl
+---
+2013/12/02 12:11:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Необходима авторизация' in /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#2 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(282): CController->run('autocomplete')
+#9 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('keywords/autoco...')
+#10 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/user632873/data/www/62.109.9.236/wordstatgrabber/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wordstatgrabber/keywords/autocomplete?term=ip
+HTTP_REFERER=http://62.109.9.236/wordstatgrabber/statistic
+---
+2013/12/02 12:11:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Необходима авторизация' in /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#2 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(282): CController->run('autocomplete')
+#9 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('keywords/autoco...')
+#10 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/user632873/data/www/62.109.9.236/wordstatgrabber/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wordstatgrabber/keywords/autocomplete?term=iphone
+HTTP_REFERER=http://62.109.9.236/wordstatgrabber/statistic
+---
+2013/12/02 12:11:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Необходима авторизация' in /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#2 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(282): CController->run('autocomplete')
+#9 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('keywords/autoco...')
+#10 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/user632873/data/www/62.109.9.236/wordstatgrabber/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wordstatgrabber/keywords/autocomplete?term=iphone%25
+HTTP_REFERER=http://62.109.9.236/wordstatgrabber/statistic
+---
+2013/12/02 12:11:40 [warning] [application] Не удалось присвоить небезопасный атрибут "name" класса "Statistic".
+in /home/user632873/data/www/62.109.9.236/wordstatgrabber/protected/controllers/StatisticController.php (129)
+in /home/user632873/data/www/62.109.9.236/wordstatgrabber/index.php (13)
+2013/12/02 12:12:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Необходима авторизация' in /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CWebUser.php:394
+Stack trace:
+#0 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(180): CWebUser->loginRequired()
+#1 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#2 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(282): CController->run('autocomplete')
+#9 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/web/CWebApplication.php(141): CWebApplication->runController('keywords/autoco...')
+#10 /home/user632873/data/www/62.109.9.236/wordstatgrabber/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/user632873/data/www/62.109.9.236/wordstatgrabber/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/wordstatgrabber/keywords/autocomplete?term=%25iphone%25
+HTTP_REFERER=http://62.109.9.236/wordstatgrabber/statistic
+---
